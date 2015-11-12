@@ -55,7 +55,8 @@ textarea {
 }
 form.hidden {
 		display: none;
-		#content:hover {
-		    background: #ff9;
-		}
+
+}
+#content:hover {
+		background: #ff9;
 }
