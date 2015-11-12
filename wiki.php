@@ -8,7 +8,7 @@
     </head>
 
     <body>
-      <script src="wiki.js"></script>
+
       <?php
 
       if (isset($_GET['content'])) {
@@ -30,7 +30,7 @@
 
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
-
+    <script src="wiki.js"></script>
     <?php
 
       $safe_content = htmlentities($content);
