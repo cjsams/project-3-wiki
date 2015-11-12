@@ -24,9 +24,17 @@
   <form action="wiki.php">
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
-    <textarea name="content" rows="8" cols="80"><?php
+    <!-- <textarea name="content" rows="8" cols="80"><?php
       echo $safe_content;
-    ?></textarea>
+    ?></textarea> -->
+    <?php
+
+      $safe_content = htmlentities($content);
+
+    ?>
+    <div id="content">
+      <?php echo $safe_content; ?>
+    </div>
   </form>
   </body>
 </html>
