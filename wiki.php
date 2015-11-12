@@ -30,19 +30,17 @@
 
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
-    <textarea name="content" rows="8" cols="80"><?php
+    <textarea name="content" rows="8" cols="80">
+      <?php
 
-      //echo $safe_content;
+        $safe_content = htmlentities($content);
 
-      ?></textarea>
-    <?php
+      ?>
+      <div id="content">
+        <?php echo $safe_content; ?>
+      </div>
+      </textarea>
 
-      $safe_content = htmlentities($content);
-
-    ?>
-    <div id="content">
-      <?php echo $safe_content; ?>
-    </div>
 
   </form>
 <script src="wiki.js"></script>
