@@ -4,9 +4,9 @@ html {
 	box-sizing: border-box;
 }
 
-/**, *:before, *:after {
+*, *:before, *:after {
 	box-sizing: inherit;
-}*/
+}
 
 /* Helvetica */
 body {
@@ -21,9 +21,9 @@ textarea {
     height: 100px;
     border: none;
 }
-/*.hidden {
+.hidden {
 		display: none;
-}*/
+}
 
 /* Mobile */
 #page {
