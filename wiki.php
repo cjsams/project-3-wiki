@@ -34,11 +34,12 @@
       $safe_content = htmlentities($content);
 
     ?>
-    <div id="content">
-      <?php echo $safe_content; ?>
-    </div>
-    <script src="wiki.js"></script>
-  </form>
 
+
+  </form>
+  <div id="content">
+    <?php echo $safe_content; ?>
+  </div>
+<script src="wiki.js"></script>
   </body>
 </html>
