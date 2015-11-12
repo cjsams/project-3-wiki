@@ -21,9 +21,7 @@ textarea {
     height: 100px;
     border: none;
 }
-#content:hover {
-    background: #ff9;
-}
+
 /* Mobile */
 #page {
 	width: 100%;
@@ -57,4 +55,7 @@ textarea {
 }
 form.hidden {
 		display: none;
+		#content:hover {
+		    background: #ff9;
+		}
 }
