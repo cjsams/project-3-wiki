@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="wiki.css">
         <title>Wiki</title>
+        <script src="wiki.js"></script>
     </head>
 
     <body>
@@ -26,7 +27,7 @@
     echo $safe_content;
     ?>
 
-  <form class="hidden">
+  <form action="wiki.php" class="hidden">
 
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
@@ -35,14 +36,15 @@
     $safe_content = htmlentities($content);
 
     ?>
-    <div id="content">
-    <?php echo $safe_content; ?>
-    </div>
 
-<script src="wiki.js"></script>
+
+
   </form>
+  <div id="content">
+  <?php echo $safe_content; ?>
+  </div>
 
 <script src="wiki.js"></script>
   </body>
-<script src="wiki.js"></script>
+
 </html>
