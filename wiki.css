@@ -10,9 +10,9 @@ html {
 form.hidden {
 		display: none;
 }
-#content:hover {
+/*form#content:hover {
 		background: #ff9;
-}
+}*/
 /* Helvetica */
 body {
 	font-family: helvetica, sans-serif;
