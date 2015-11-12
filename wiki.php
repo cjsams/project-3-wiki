@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="wiki.css">
         <title>Wiki</title>
     </head>
-    <script src="wiki.js"></script>
+
     <body>
+      <script src="wiki.js"></script>
       <?php
 
       if (isset($_GET['content'])) {
