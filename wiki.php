@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="wiki.css">
         <title>Wiki</title>
     </head>
+    <script src="wiki.js"></script>
     <body>
       <?php
 
@@ -35,7 +36,7 @@
 
     ?>
 
-    <script src="wiki.js"></script>
+
   </form>
 
   <div id="content">
