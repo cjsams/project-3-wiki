@@ -12,9 +12,7 @@ html {
 body {
 	font-family: helvetica, sans-serif;
 }
-form.hidden {
-		display: none;
-}
+
 
 textarea {
     font-family: helvetica, sans-serif;
@@ -23,7 +21,9 @@ textarea {
     height: 100px;
     border: none;
 }
-
+#content:hover {
+    background: #ff9;
+}
 /* Mobile */
 #page {
 	width: 100%;
@@ -54,4 +54,7 @@ textarea {
 	#page {
 		line-height: 2.2em;
 	}
+}
+form.hidden {
+		display: none;
 }
