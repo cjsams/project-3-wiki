@@ -24,12 +24,7 @@
     echo $safe_content;
     ?>
   <form action="wiki.php" class="hidden">
-    form.hidden {
-        display: none;
-    }
-    #content:hover {
-        background: #ff9;
-    }
+    
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
 

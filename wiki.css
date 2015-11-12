@@ -7,7 +7,12 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
+form.hidden {
+		display: none;
+}
+#content:hover {
+		background: #ff9;
+}
 /* Helvetica */
 body {
 	font-family: helvetica, sans-serif;
