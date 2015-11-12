@@ -37,9 +37,10 @@
 
 
   </form>
+  <script src="wiki.js"></script>
   <div id="content">
     <?php echo $safe_content; ?>
   </div>
-  <script src="wiki.js"></script>
+
   </body>
 </html>
