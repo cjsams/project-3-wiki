@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="stylesheet" href="wiki.css">
         <meta charset="utf-8">
         <title>Wiki</title>
     </head>
@@ -24,7 +25,7 @@
   <form action="wiki.php">
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
-    
+
     <?php
 
       $safe_content = htmlentities($content);
