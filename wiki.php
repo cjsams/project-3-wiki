@@ -22,8 +22,6 @@
         $content = '(no content)';
     }
 
-    $safe_content = htmlentities($content);
-    echo $safe_content;
     ?>
 
   <form action="wiki.php" class="hidden">
