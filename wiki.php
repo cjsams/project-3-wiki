@@ -27,7 +27,7 @@
     ?>
 
   <form action="wiki.php" class="hidden">
-
+    <script src="wiki.js"></script>
     <textarea name="content" rows="8" cols="80"></textarea>
     <input type="submit" value="Save">
     <textarea name="content" rows="8" cols="80">
@@ -43,7 +43,7 @@
 
 
   </form>
-<script src="wiki.js"></script>
+
 
   </body>
 </html>
