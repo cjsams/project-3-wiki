@@ -34,16 +34,16 @@
       $safe_content = htmlentities($content);
 
       ?>
-      <div id="content">
-      <?php echo $safe_content; ?>
-      </div>
+
     </textarea>
     <input type="submit" value="Save">
 
 
 
   </form>
-
+  <div id="content">
+  <?php echo $safe_content; ?>
+  </div>
 
   </body>
 </html>
