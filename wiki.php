@@ -8,6 +8,9 @@
     </head>
 
     <body>
+      <div>
+        Leave a message for the next person.
+      </div>
 
       <?php
 
