@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="wiki.css">
         <title>Wiki</title>
-        <script src="wiki.js"></script>
     </head>
 
     <body>
