@@ -36,7 +36,7 @@
       ?>
       <div id="content">
       <?php echo $safe_content; ?>
-
+<script src="wiki.js"></script>
       </div>
     </textarea>
     <input type="submit" value="Save">
@@ -45,7 +45,7 @@
 
   </form>
 
-  <script src="wiki.js"></script>
+
   </body>
 
 </html>
