@@ -1,7 +1,5 @@
 /* Border box by default */
-.hidden {
-    display: none;
-}
+
 html {
 	box-sizing: border-box;
 }
