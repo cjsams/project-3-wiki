@@ -7,17 +7,14 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-form.hidden {
-		display: none;
-}
-/*form#content:hover {
-		background: #ff9;
-}*/
+
 /* Helvetica */
 body {
 	font-family: helvetica, sans-serif;
 }
-
+form.hidden {
+		display: none;
+}
 
 textarea {
     font-family: helvetica, sans-serif;
