@@ -45,6 +45,7 @@
   <?php echo $safe_content; ?>
 
   </div>
-  </body>
   <script src="wiki.js"></script>
+  </body>
+
 </html>
