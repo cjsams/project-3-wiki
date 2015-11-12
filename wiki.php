@@ -41,7 +41,7 @@
     </div>
 
   </form>
-
+<script src="wiki.js"></script>
 
   </body>
 </html>
