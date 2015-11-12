@@ -41,7 +41,7 @@
     <input type="submit" value="Save">
 
 
-
+<script src="wiki.js"></script>
   </form>
 
 <script src="wiki.js"></script>
