@@ -21,7 +21,7 @@ textarea {
     height: 100px;
     border: none;
 }
-form.hidden {
+.hidden {
 		display: none;
 
 }
